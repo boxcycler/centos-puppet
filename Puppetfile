@@ -4,11 +4,11 @@
 # file name:     Puppetfile
 # author:        Steve Vasta
 # created:       February 21, 2017
-# modified:      July 25, 2018
+# modified:      July 27, 2018
 # description:   This file is used by 'r10k' to properly install
 #                needed puppet modules from current internet sources.
 
 #-------------------------------------------------------------------------------
 # My private modules . . .
 mod 'baseconfig',
-  :git => '/git/boxcycler/centos/puppet-baseconfig.git'
+  :git => 'https://github.com/boxcycler/centos-puppet-baseconfig puppet-baseconfig'
