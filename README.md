@@ -1,2 +1,2 @@
 # centos-puppet
-Puppet files used to build CentOS machines
+Top-level puppet file used to build CentOS machines
